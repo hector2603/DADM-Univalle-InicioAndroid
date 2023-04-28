@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/perfilF"
+        android:icon="@drawable/logo"
+        android:title="@string/perfil" />
+
+    <item
+        android:id="@+id/terminadasF"
+        android:icon="@drawable/logo"
+        android:title="@string/terminadas" />
+
+    <item
+        android:id="@+id/actualesF"
+        android:icon="@drawable/logo"
+        android:title="@string/actuales" />
+
+    <item
+        android:id="@+id/pendientesF"
+        android:icon="@drawable/logo"
+        android:title="@string/pendientes" />
+
+</menu>

@@ -1,0 +1,6 @@
+<vector android:autoMirrored="true" android:height="800dp"
+    android:viewportHeight="800" android:viewportWidth="360"
+    android:width="360dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/md_theme_light_primaryContainer" android:pathData="M0,800V0H360L359.5,800H0Z"/>
+    <path android:fillColor="@color/cardview_light_background" android:pathData="M0,340.5V0H360V132C340.36,160.27 275.72,215.81 182.25,209.79C88.78,203.76 21.47,294.33 0,340.5Z"/>
+</vector>

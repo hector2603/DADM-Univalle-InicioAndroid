@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/actualesF">
+
+    <fragment
+        android:id="@+id/actualesF"
+        android:name="com.hector.ocampo.miprimerapp.views.main.ActualesView"
+        android:label="@string/actuales"
+        tools:layout="@layout/fragment_actuales" >
+    </fragment>
+    <fragment
+        android:id="@+id/terminadasF"
+        android:name="com.hector.ocampo.miprimerapp.views.main.TerminadasView"
+        android:label="@string/terminadas"
+        tools:layout="@layout/fragment_terminadas" >
+    </fragment>
+    <fragment
+        android:id="@+id/pendientesF"
+        android:name="com.hector.ocampo.miprimerapp.views.main.PendientesView"
+        android:label="@string/pendientes"
+        tools:layout="@layout/fragment_pendientes" >
+    </fragment>
+    <fragment
+        android:id="@+id/perfilF"
+        android:name="com.hector.ocampo.miprimerapp.views.main.PerfilView"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" >
+    </fragment>
+</navigation>

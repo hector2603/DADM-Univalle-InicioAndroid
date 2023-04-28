@@ -1,4 +1,4 @@
-package com.hector.ocampo.miprimerapp.views.main
+package com.hector.ocampo.mylist.views.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

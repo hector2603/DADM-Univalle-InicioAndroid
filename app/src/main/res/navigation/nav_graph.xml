@@ -7,7 +7,7 @@
 
     <activity
         android:id="@+id/login"
-        android:name="com.hector.ocampo.miprimerapp.views.LoginView"
+        android:name="com.hector.ocampo.mylist.views.LoginView"
         android:label="login"
         tools:layout="@layout/login_constrains">
 
@@ -17,7 +17,7 @@
     </activity>
     <activity
         android:id="@+id/signup"
-        android:name="com.hector.ocampo.miprimerapp.views.SignUpView"
+        android:name="com.hector.ocampo.mylist.views.SignUpView"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/sign_up">
 

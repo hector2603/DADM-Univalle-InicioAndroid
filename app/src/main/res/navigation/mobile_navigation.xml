@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/actualesF"
-        android:name="com.hector.ocampo.miprimerapp.views.main.ActualesView"
+        android:name="com.hector.ocampo.mylist.views.main.ActualesView"
         android:label="@string/actuales"
         tools:layout="@layout/fragment_actuales" >
     </fragment>
     <fragment
         android:id="@+id/terminadasF"
-        android:name="com.hector.ocampo.miprimerapp.views.main.TerminadasView"
+        android:name="com.hector.ocampo.mylist.views.main.TerminadasView"
         android:label="@string/terminadas"
         tools:layout="@layout/fragment_terminadas" >
     </fragment>
     <fragment
         android:id="@+id/pendientesF"
-        android:name="com.hector.ocampo.miprimerapp.views.main.PendientesView"
+        android:name="com.hector.ocampo.mylist.views.main.PendientesView"
         android:label="@string/pendientes"
         tools:layout="@layout/fragment_pendientes" >
     </fragment>
     <fragment
         android:id="@+id/perfilF"
-        android:name="com.hector.ocampo.miprimerapp.views.main.PerfilView"
+        android:name="com.hector.ocampo.mylist.views.main.PerfilView"
         android:label="@string/perfil"
         tools:layout="@layout/fragment_perfil" >
     </fragment>

@@ -1,4 +1,4 @@
-package com.hector.ocampo.miprimerapp.model
+package com.hector.ocampo.mylist.model
 
 import android.content.Context
 import androidx.room.Database

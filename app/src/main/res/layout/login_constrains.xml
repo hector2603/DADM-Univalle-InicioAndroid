@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/fondo_login"
-    tools:context="com.hector.ocampo.miprimerapp.views.LoginView">
+    tools:context=".views.LoginView">
 
         <ImageView
             android:id="@+id/imageView3"

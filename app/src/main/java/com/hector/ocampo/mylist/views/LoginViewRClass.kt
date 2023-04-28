@@ -1,4 +1,4 @@
-package com.hector.ocampo.miprimerapp.views
+package com.hector.ocampo.mylist.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -21,7 +21,7 @@ class LoginView : AppCompatActivity(){
         val view = binding.root
         setContentView(view)
         loginPresenter = LoginPresenter(this, applicationContext)
-
+        loginPresenter.initDataBase()
         binding.filledButton.setOnClickListener{
             view ->
             Log.d(this::class.java.simpleName,"Entró a Iniciar sesión")

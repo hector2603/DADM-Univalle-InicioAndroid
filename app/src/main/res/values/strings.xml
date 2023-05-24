@@ -50,8 +50,11 @@
     <string name="email">email</string>
     <string name="crear_cuenta">Crear Cuenta</string>
     <string name="iniciar_sesi_n">Iniciar Sesión</string>
-    <string name="perfil">perfil</string>
-    <string name="terminadas">terminadas</string>
-    <string name="actuales">actuales</string>
-    <string name="pendientes">pendientes</string>
+    <string name="perfil">Perfil</string>
+    <string name="terminadas">Terminadas</string>
+    <string name="actuales">Actuales</string>
+    <string name="pendientes">Pendientes</string>
+    <string name="peliculas">Películas</string>
+    <string name="nombre_de_la_pelicula">Nombre de la película</string>
+    <string name="apiKeytmdb">tu apikey</string>
 </resources>

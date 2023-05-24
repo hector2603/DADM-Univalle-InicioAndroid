@@ -38,6 +38,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".views.LoginView"/>
         </activity>
+        <activity
+            android:name=".views.search.SearchMovieView"
+            android:exported="true"
+            android:theme="@style/Theme.MiPrimerApp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.MainContainerView"/>
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

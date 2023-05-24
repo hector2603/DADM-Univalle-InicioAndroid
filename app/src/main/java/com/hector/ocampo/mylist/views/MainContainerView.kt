@@ -1,5 +1,6 @@
 package com.hector.ocampo.mylist.views
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -9,6 +10,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.hector.ocampo.mylist.R
 import com.hector.ocampo.mylist.databinding.MainContainerBinding
+import com.hector.ocampo.mylist.views.search.SearchMovieView
 
 class MainContainerView : AppCompatActivity() {
 
@@ -30,6 +32,11 @@ class MainContainerView : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        binding.searchMovie.setOnClickListener {
+            view -> val intent = Intent(this, SearchMovieView::class.java)
+            startActivity(intent)
+        }
     }
 
 }

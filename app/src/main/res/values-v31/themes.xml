@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppSplash" parent="AppTheme">
+        <item name="windowSplashScreenBackground">@color/md_theme_light_primaryContainer</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MiPrimerApp</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/my_list</item>
+
+        <!-- Status bar and Nav bar configs -->
+        <item name="android:statusBarColor">@color/material_dynamic_primary0</item>
+        <item name="android:navigationBarColor">@color/material_dynamic_primary0</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

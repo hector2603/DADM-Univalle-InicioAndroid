@@ -2,11 +2,9 @@ package com.hector.ocampo.mylist.views
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NavUtils
 import com.hector.ocampo.mylist.databinding.SignUpBinding
-import com.hector.ocampo.mylist.presenter.LoginPresenter
 import com.hector.ocampo.mylist.presenter.SignUpPresenter
 
 

@@ -52,14 +52,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <Button
-                style="@style/Widget.Material3.Button.TextButton"
-                android:id="@+id/time"
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/historyRecyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Time"
-                android:textColor="@color/md_theme_light_onPrimaryFixed"
-                />
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp">
+
+            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
     </com.google.android.material.search.SearchView>
 

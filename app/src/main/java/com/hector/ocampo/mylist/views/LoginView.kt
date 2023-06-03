@@ -1,14 +1,12 @@
 package com.hector.ocampo.mylist.views
 
 import android.content.Intent
-import android.os.AsyncTask
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
-import com.hector.ocampo.mylist.presenter.LoginPresenter
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.hector.ocampo.mylist.databinding.LoginConstrainsBinding
-import com.hector.ocampo.mylist.model.User
-import kotlinx.coroutines.runBlocking
+import com.hector.ocampo.mylist.presenter.LoginPresenter
 
 
 class LoginView : AppCompatActivity(){
@@ -16,6 +14,7 @@ class LoginView : AppCompatActivity(){
     private lateinit var binding: LoginConstrainsBinding
     private lateinit var loginPresenter: LoginPresenter
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         binding = LoginConstrainsBinding.inflate(layoutInflater)
         val view = binding.root

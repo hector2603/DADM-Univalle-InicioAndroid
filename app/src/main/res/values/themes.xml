@@ -1,5 +1,4 @@
-
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
@@ -32,4 +31,12 @@
         <item name="colorControlNormal">#400060AB</item>
         <item name="colorControlActivated">#0060AB</item>
     </style>
+    <style name="Theme.AppSplash" parent="AppTheme">
+        <item name="windowSplashScreenBackground">@color/md_theme_light_primaryContainer</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MiPrimerApp</item>
+        <item name="android:windowBackground">@drawable/logo</item>
+    </style>
+
 </resources>

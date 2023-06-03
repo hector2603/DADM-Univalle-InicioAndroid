@@ -3,15 +3,10 @@ package com.hector.ocampo.mylist.presenter
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
-import androidx.lifecycle.liveData
 import com.hector.ocampo.mylist.model.CurrentMovies
 import com.hector.ocampo.mylist.model.CurrentMoviesRepository
-import com.hector.ocampo.mylist.model.User
-
 import com.hector.ocampo.mylist.model.UserRepository
 import com.hector.ocampo.mylist.views.LoginView
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.runBlocking
 import java.util.concurrent.Executors
 import java.util.concurrent.FutureTask
 

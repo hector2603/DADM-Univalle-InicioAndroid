@@ -5,9 +5,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.hector.ocampo.mylist.R
 import com.hector.ocampo.mylist.databinding.MainContainerBinding
 import com.hector.ocampo.mylist.views.search.SearchMovieView
